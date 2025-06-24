@@ -16,6 +16,8 @@ const storage = multer.diskStorage({
   filename: (req, file, cb) => cb(null, 'reference.jpg')
 });
 
+// cc
+
 const upload = multer({ storage });
 
 // Ruta para subir imagen
